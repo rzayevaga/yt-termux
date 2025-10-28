@@ -18,5 +18,14 @@ Share videos from YouTube and choose Termux, upload to phone with Termux
 📱 İSTİFADƏ:
 
 1. Avtomatik: YouTube/TikTok linkini Termux-a paylaş
-2. Manual: Terminalda ydl yazıb link daxil et
-3. Premium: Çoxlu link, format seçimi, sürət testi
+2. Manual: Terminalda ydl yazıb link daxil et (Əgər işləməsə aşağıdakı kimi et)
+4. Premium: Çoxlu link, format seçimi, sürət testi
+
+
+> Terminalda ydl işləməsə əgər; (Alternativ - bash ~/bin/ydl vəya aşağıdakı kopyala yapışdır terminala)
+
+
+          echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+          echo 'alias ydl="~/bin/ydl"' >> ~/.bashrc
+          source ~/.bashrc
+          ydl
